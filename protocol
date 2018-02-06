@@ -1,0 +1,7 @@
+packet_number = 2 byte
+built_id = 4 byte
+sessions_id = 3 byte
+commands_id = 2 byte
+data_size = 1 byte
+data = 100
+packet_hashsumm = 4
